@@ -27,3 +27,4 @@ flutter:
     - lib/assets/logo.svg
     - lib/assets/github.svg
     - lib/assets/apple.svg
+    - lib/assets/backImg.png
