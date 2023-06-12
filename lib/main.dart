@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:hereitis_app/screens/commit.dart';
 import 'common/colors.dart' as colors;
 
 void main() {
@@ -76,6 +77,9 @@ class SocialLogin extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      onTap: () => {
+        Navigator.push(context, MaterialPageRoute(builder: (_) => Commit()))
+      },
       child: Container(
         decoration: BoxDecoration(
             border: Border.all(
